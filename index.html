@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/sky.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <script src="js/reveal.js"></script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section id="home-slide">
+                <div class="float-container">
+                    <div class="float-left" style="width: 20%; vertical-align: center;">
+                        <img class="logo" src="img/logo.png" alt="logo" style="height: 100%; width: 100%;">
+                    </div>
+                    <div class="float-right" style="width: 70%">
+                        <h1>Frank Hrach</h1>
+                        <h4>Final Assessment</h4>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="header">
+                    <div class="float-container">
+                        <div class="float-left">
+                            <h2>Teamwork</h2>
+                        </div>
+                        <div class="float-right">
+                            <img src="img/GitHub-Mark-120px-plus.png" alt="GitHub" style="margin-right: 1em;">
+                        </div>
+                    </div>
+                </div>
+                <div class="body">
+                    <ul>
+                        <li>Multiple team projects completed during school</li>
+                        <li>An active member of
+                            <a href="https://www.csh.rit.edu/">CSH</a> for 4 years</li>
+                        <li>Experience with working in a team during co-ops</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="header">
+                    <div class="float-container">
+                        <div class="float-left" style="width: 50%;">
+                            <h2>Skills</h2>
+                        </div>
+                        <div class="float-right" style="width: 40%">
+                            <img src="img/python-logo-master-v3-TM.png" alt="python" style="border-radius: 10px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="body">
+                    <ul>
+                        <li>2+ years of software industry experience</li>
+                        <li>RIT degree, with a focus on Software Development and Databases</li>
+                        <li>Numerous personal projects on
+                            <a href="https://github.com/fhrach4">Github</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="header">
+                    <div class="float-container">
+                        <div class="float-left" style="width: 80%;">
+                            <h2>Problem Solving</h2>
+                        </div>
+                        <div class="float-right" style="width:20%">
+                            <img src="img/so-logo.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="body">
+                    <ul>
+                        <li>Multiple classes taken in formal and computational logic</li>
+                        <li>A commitment to simplicity and elegancy in solutions</li>
+                        <li>The simplest, most obvious solution is often the most elegant and effective</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="header">
+                    <h2>Inquiry and Analysis</h2>
+                </div>
+                <div class="body">
+                    <ul>
+                        <li>Crucial skills for breaking down problems exercised every day</li>
+                        <li>Extensive practice from RIT courses</li>
+                        <li>Strong ability to analyze and dissect code</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+        Reveal.initialize({
+            controlsTutorial: true,
+            parallaxBackgroundImage: 'img/Rit_aerial_aug_17_2007.jpg',
+            parallaxBackgroundSize: '2726px 1148px',
+        });
+    </script>
+
+    <style type="text/css">
+        /* 1. Style header/footer <div> so they are positioned as desired. */
+
+        #header-left {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+        }
+
+        #header-right {
+            position: absolute;
+            top: 0%;
+            right: 0%;
+        }
+
+        #footer-left {
+            position: absolute;
+            bottom: 0%;
+            left: 0%;
+        }
+    </style>
+
+    <div id="hidden" style="display:none;">
+        <div id="header">
+            <div id="header-left">
+                <a href="#/home-slide"><h4>Frank Hrach - Final Assessment</h4></a>
+            </div>
+            <div id="header-right"></div>
+            <div id="footer-left">
+                <a href="http://www.hrachblog.com">Blog</a> | 
+                <a href="https://www.github.com/fhrach4">Github</a> |
+                <a href="https://www.linkedin.com/in/frank-hrach-270397b0/">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        var header = $('#header').html();
+        if (window.location.search.match(/print-pdf/gi)) {
+            Reveal.addEventListener('ready', function (event) {
+                $('.slide-background').append(header);
+            });
+        }
+        else {
+            $('div.reveal').append(header);
+        }
+    </script>
+</body>
+
+</html>

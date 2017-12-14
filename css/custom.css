@@ -1,0 +1,72 @@
+div.header {
+    min-height: 33%;
+    max-height: 33%;
+    margin: 1em;
+}
+
+div.body {
+    height: 66%;
+    min-height: 66%;
+    margin: 1em;
+}
+
+section {
+    background: rgba(255, 255, 255, .7);
+    border-radius: 25px;
+}
+
+div.float-container {
+    display: float;
+}
+
+div.float-right {
+    float: right;
+}
+
+div.float-left {
+    float: left;
+}
+
+.reveal section img {
+    border-style: none;
+    box-shadow: 0 0 0px;
+}
+
+.reveal section img.logo {
+    margin-left: 2em;
+    margin-top: 3em;
+}
+
+.reveal .controls {
+    background: rgba(255, 255, 255, .7);
+    height: 65px;
+    width: 100px;
+    visibility: visible;
+    border-radius: 15px;
+}
+
+#footer-left {
+    background: rgba(255, 255, 255, .7);
+    padding: .25em;
+    margin-bottom: .25em;
+    margin-left: .25em;
+    border-radius: 15px;
+}
+
+#header-left {
+    margin-top: .25em;
+    margin-left: .25em;
+    padding: .5em;
+    background: rgba(255, 255, 255, .7);
+    border-radius: 15px;
+}
+
+#header-left h4 {
+    margin: 0;
+    padding: 0;
+}
+
+#header-left a {
+    margin: 0;
+    padding: 0;
+}
